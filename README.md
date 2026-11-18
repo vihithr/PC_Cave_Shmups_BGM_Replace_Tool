@@ -41,10 +41,11 @@ Replace or extract BGM/SE audio for CAVE PC releases (e.g., Dai-Fukkatsu, Deaths
 **Notes**
 - Keep replacement audio as WAV; the tool writes raw bytes without format conversion.
 - Offsets are recalculated automatically before saving; ensure the game is not running when you overwrite files.
+- **Back up the original archive before saving.** If you choose the same path, the tool rewrites the file in place.
 
 **Links**
 - Source tree: `WavReplace/`  
-- Prebuilt/Release (if available): https://github.com/<owner>/PC_Cave_Shumps_BGM_Replace_Tool/releases
+- Prebuilt/Release (if available): https://github.com/vihithr/PC_Cave_Shmups_BGM_Replace_Tool/releases
 
 ---
 
@@ -87,8 +88,9 @@ Replace or extract BGM/SE audio for CAVE PC releases (e.g., Dai-Fukkatsu, Deaths
 **注意**
 - 请使用 WAV 文件进行替换，工具不会转换格式。  
 - 保存前会自动重算偏移，覆盖游戏文件前请关闭游戏。
+- **覆盖前请备份原始音频包。** 如果保存到原路径，工具会直接重写文件。
 
 **相关链接**
 - 源码目录：`WavReplace/`  
-- 若有发布包： https://github.com/<owner>/PC_Cave_Shumps_BGM_Replace_Tool/releases
+- 若有发布包： https://github.com/vihithr/PC_Cave_Shmups_BGM_Replace_Tool/releases
 
